@@ -12,3 +12,5 @@ set cursorline
 "ideaVimExtension配置(MacOS需要开启英语美国键盘或ABC键盘 Windows需要开启英语美国键盘 Linux需要使用fcitx输入法，通过fcitx-remote切换)
 set keep-english-in-normal
 set keep-english-in-normal-and-restore-in-insert
+"显示相对行号 可以在命令模式中使用:set nornu关闭
+set relativenumber
