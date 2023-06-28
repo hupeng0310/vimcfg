@@ -48,8 +48,10 @@ set ignorecase
 "smart case when searching
 set smartcase
 
-map <C-v> p
-map <C-c> y
+imap <C-v> <ESC>pi
+imap <C-c> <ESC>yi
+nmap <C-v> p
+nmap <C-c> y
 
 "ideavim extension plugin config
 set nokeep-english-in-normal-and-restore-in-insert
